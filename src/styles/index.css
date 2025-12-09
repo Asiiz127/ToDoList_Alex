@@ -9,3 +9,15 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.todo-item {
+  position: relative;
+}
+
+.todo-delete {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.todo-item:hover .todo-delete {
+  opacity: 1;
+}
